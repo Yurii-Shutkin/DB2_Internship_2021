@@ -1,0 +1,159 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  padding: 22px 0;
+  font-size: 16px;
+}
+
+.sign-in__link {
+  color: #222428;
+}
+
+span {
+  font-weight: 700;
+  color: #2A74DB
+}
+
+.sign-up {
+  padding: 72px 115px 80px;
+  background-color: #fff;
+  box-shadow: 0px 5px 40px rgba(0, 45, 113, 0.06);
+  border-radius: 10px;
+  padding: 72px 116px 80px;
+}
+
+.sign-up__title {
+  font-family: 'exo 2', sans-serif;
+  font-size: 28px;
+  color: #002396;
+  margin-bottom: 30px;
+}
+
+.sign-up__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  display: block;
+  outline: none;
+  border: 2px solid #F2F2F2;
+  border-radius: 3px;
+  background: #FCFCFC;
+  margin-bottom: 20px;
+  padding-left: 13px;
+  width: 400px;
+  height: 40px;
+}
+
+.input:focus {
+  border-left: 2px solid #2A74DB;
+  background: #fff;
+}
+
+::placeholder {
+  color: #8790A791;
+  opacity: 57%;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.28px;
+}
+
+.short-inp {
+  max-width: 190px;
+}
+
+.input__btn {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 16px;
+  width: 190px;
+  padding: 10px 0;
+  align-self: flex-end;
+  outline: none;
+  background-color: #0AD69C;
+  border: 0 solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-check {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.input-check:last-child {
+  margin-bottom: 0;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #222428;
+}
+
+label:last-child {
+  margin-bottom: 20px;
+}
+
+.input-check {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #F2F2F2;
+  border-radius: 3px;
+  background: #fff;
+  margin-right: 13px;
+}
+
+.input-check:checked::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../../assets/img/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.input-check:checked {
+  background: #F5F7FA;
+}
+
+.input-link {
+  margin-left: 5px;
+}
+
+.input:last-child {
+  margin-bottom: 0;
+}
+
+.input.mb-35 {
+  margin-bottom: 35px;
+}
+
+label a {
+  color: #002396;
+  font-weight: 300;
+}
+
+.capcha {
+  margin-bottom: 38px;
+}
