@@ -91,6 +91,10 @@ span {
   cursor: pointer;
 }
 
+.input__btn:hover {
+  background-color: #0ad69cca;
+}
+
 .input-check {
   appearance: none;
   -webkit-appearance: none;
@@ -147,6 +151,10 @@ label:last-child {
 
 .input.mb-35 {
   margin-bottom: 35px;
+}
+
+.input.mb-40 {
+  margin-bottom: 40px;
 }
 
 label a {
